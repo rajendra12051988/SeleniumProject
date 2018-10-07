@@ -1,0 +1,32 @@
+07/10/2018 11:15:16 devpinoyLogger Launching Application : http://newtours.demoaut.com
+07/10/2018 11:15:22 devpinoyLogger Launched Application : http://newtours.demoaut.com
+07/10/2018 11:15:23 devpinoyLogger Entering 'mercury' in the 'UserName' edit field
+07/10/2018 11:15:25 devpinoyLogger Entered'mercury' in the 'UserName' edit field
+07/10/2018 11:15:25 devpinoyLogger Entering 'mercury' in the 'Password' edit field
+07/10/2018 11:15:25 devpinoyLogger Entered'mercury' in the 'Password' edit field
+07/10/2018 11:15:25 devpinoyLogger Clicking on 'Sign-On'
+07/10/2018 11:15:32 devpinoyLogger Clicked on 'Sign-On'
+07/10/2018 11:15:32 devpinoyLogger Clicking on 'TripType'
+07/10/2018 11:15:33 devpinoyLogger Clicked on 'TripType'
+07/10/2018 11:15:33 devpinoyLogger Selecting 'London' from 'DepartureFrom' dropdown
+07/10/2018 11:15:34 devpinoyLogger Selected'London' from 'DepartureFrom' dropdown
+07/10/2018 11:15:34 devpinoyLogger Selecting 'Paris' from 'ArrivalTo' dropdown
+07/10/2018 11:15:34 devpinoyLogger Selected'Paris' from 'ArrivalTo' dropdown
+07/10/2018 11:15:34 devpinoyLogger Clicking on 'ClassPreference'
+07/10/2018 11:15:34 devpinoyLogger Clicked on 'ClassPreference'
+07/10/2018 11:15:34 devpinoyLogger Selecting 'Blue Skies Airlines' from 'AirlinePreference' dropdown
+07/10/2018 11:15:34 devpinoyLogger Selected'Blue Skies Airlines' from 'AirlinePreference' dropdown
+07/10/2018 11:15:34 devpinoyLogger Clicking on 'FindFlights'
+07/10/2018 11:15:36 devpinoyLogger Clicked on 'FindFlights'
+07/10/2018 11:15:36 devpinoyLogger Clicking on 'ReserveFlights'
+07/10/2018 11:15:38 devpinoyLogger Clicked on 'ReserveFlights'
+07/10/2018 11:15:38 devpinoyLogger Entering 'Rajendra' in the 'FirstName' edit field
+07/10/2018 11:15:41 devpinoyLogger Entered'Rajendra' in the 'FirstName' edit field
+07/10/2018 11:15:41 devpinoyLogger Entering 'Mahapatra' in the 'LastName' edit field
+07/10/2018 11:15:41 devpinoyLogger Entered'Mahapatra' in the 'LastName' edit field
+07/10/2018 11:15:41 devpinoyLogger Entering '35945875' in the 'CreditCardNumber' edit field
+07/10/2018 11:15:42 devpinoyLogger Entered'35945875' in the 'CreditCardNumber' edit field
+07/10/2018 11:15:42 devpinoyLogger Clicking on 'BuyFlights'
+07/10/2018 11:15:43 devpinoyLogger Clicked on 'BuyFlights'
+07/10/2018 11:15:43 devpinoyLogger Verifying text 'itinerary has been booked!' on web page...
+07/10/2018 11:15:44 devpinoyLogger Verified text 'itinerary has been booked!' on web page...
