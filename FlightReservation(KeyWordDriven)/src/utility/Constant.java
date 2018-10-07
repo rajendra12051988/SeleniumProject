@@ -6,5 +6,5 @@ public class Constant {
 	public static final String chromeDriverPath = System.getProperty("user.dir")+"\\drivers\\chromedriver.exe";
 	public static final String geckoDriverPath = System.getProperty("user.dir")+"\\drivers\\geckodriver.exe";
 	public static final String ieDriverPath = System.getProperty("user.dir")+"\\drivers\\IEDriverServer.exe";
-	public static final String reportPath = System.getProperty("user.dir")+"\\Result\\TestExecutionReport.txt";
+	public static final String reportPath = System.getProperty("user.dir")+"\\Result";
 }

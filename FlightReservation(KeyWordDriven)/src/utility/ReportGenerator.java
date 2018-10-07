@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 
 public class ReportGenerator {
 public void generateReport(String content) throws IOException{
-	FileWriter writer = new FileWriter(Constant.reportPath,true);
+	FileWriter writer = new FileWriter(Constant.reportPath+"\\TestExecutionReport.txt",true);
 	PrintWriter write = new PrintWriter(writer);
 	write.println(content);
 	write.close();

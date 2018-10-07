@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.net.InetAddress;
 import java.util.Properties;
 
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.openqa.selenium.WebDriver;
@@ -12,6 +14,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -22,13 +26,19 @@ import utility.Constant;
 import utility.ReportGenerator;
 
 public class  executeTestThroughTestNg {
+	WebDriver driver;
+	ReadObject reader;
+	Properties allObjects;
+	ExcelReader obj;
+	UIOperation operation;
+	ReportGenerator report;
+	
 	@Parameters({"browser"})
-    @Test
-	public void executeTest(String browser) throws IOException {
-		// TODO Auto-generated method stub
-		WebDriver driver = null;
-		ReadObject reader = new ReadObject();
-		Properties allObjects = reader.getObjectRepoository();
+    @BeforeTest
+    public void setup(String browser) throws IOException {
+		
+		reader = new ReadObject();
+		allObjects = reader.getObjectRepoository();
 		if(browser.equals("chrome")){
 			System.setProperty("webdriver.chrome.driver", Constant.chromeDriverPath);
 			driver = new ChromeDriver();
@@ -52,9 +62,9 @@ public class  executeTestThroughTestNg {
 			file.delete();
 		}
 				
-		ExcelReader obj = new ExcelReader();
-		UIOperation operation = new UIOperation(driver);
-		ReportGenerator report = new ReportGenerator();
+		obj = new ExcelReader();
+		operation = new UIOperation(driver);
+		report = new ReportGenerator();
 		
 		// Add System Information to the Test Execution Report
 		report.generateReport("*******************************************");
@@ -75,8 +85,18 @@ public class  executeTestThroughTestNg {
 		System.out.println("User : "+System.getProperty("user.name"));
 		System.out.println("*******************************************");
 		
+	}
+	
+	@Test
+	public void executeTest() throws IOException {
+		// TODO Auto-generated method stub
 		Sheet sheet = obj.readExcel(Constant.filePath, Constant.fileName);
 		int rownum = sheet.getLastRowNum()-sheet.getFirstRowNum();
+		Row row1 = sheet.getRow(0);
+		Cell cell1 = row1.createCell(5);
+		cell1.setCellValue("Status");
+		CellStyle style1 = obj.customizeTestExecutionReport("header");
+		cell1.setCellStyle(style1);
 		for(int i=1; i<=rownum;i++){
 			
 			Row row = sheet.getRow(i);
@@ -84,6 +104,12 @@ public class  executeTestThroughTestNg {
 				String status = operation.perform(allObjects, row.getCell(1).getStringCellValue(), row.getCell(2).getStringCellValue(), row.getCell(3).getStringCellValue(), row.getCell(4).getStringCellValue());
 				report.generateReport(row.getCell(1).getStringCellValue()+"---"+row.getCell(2).getStringCellValue()+"---"+row.getCell(3).getStringCellValue()+"---"+row.getCell(4).getStringCellValue()+"---"+status);
 				System.out.println(row.getCell(1).getStringCellValue()+"---"+row.getCell(2).getStringCellValue()+"---"+row.getCell(3).getStringCellValue()+"---"+row.getCell(4).getStringCellValue()+"---"+status);
+				Cell cell = row.createCell(5);
+				cell.setCellValue(status);
+				CellStyle style = obj.customizeTestExecutionReport(status);
+				cell.setCellStyle(style);
+				
+				
 			}else{
 				report.generateReport("===========================================================");
 				System.out.println("===========================================================");
@@ -92,11 +118,20 @@ public class  executeTestThroughTestNg {
 				report.generateReport("===========================================================");
 				System.out.println("===========================================================");
 			}
+			
+			
+			
 		}
 		
+		obj.generateReport(Constant.reportPath,"TestExecutionReport.xlsx");
+		obj.closeWorkbook();
+	}
+	
+	@AfterTest
+	public void teardown() {
 		
-		driver.close();
-		//driver.quit();
+		//driver.close();
+		driver.quit();
 		
 	}
 

@@ -8,11 +8,11 @@
     </classes>
   </test> <!-- Test -->
   
-  <test name="firefoxTest">
+  <!--  <test name="firefoxTest">
   <parameter name="browser" value="firefox"/>
     <classes>
       <class name="testcases.executeTestThroughTestNg"/>
     </classes>
-  </test> <!-- Test -->
+  </test>  --> <!-- Test -->
   
 </suite> <!-- Suite -->

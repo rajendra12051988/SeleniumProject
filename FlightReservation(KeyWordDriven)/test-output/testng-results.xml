@@ -1,87 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="29029" started-at="2018-08-04T18:41:01Z" finished-at="2018-08-04T18:41:30Z">
+  <suite name="Suite" duration-ms="106224" started-at="2018-10-07T16:22:15Z" finished-at="2018-10-07T16:24:02Z">
     <groups>
     </groups>
-    <test name="firefoxTest" duration-ms="23971" started-at="2018-08-04T18:41:01Z" finished-at="2018-08-04T18:41:25Z">
+    <test name="chromeTest" duration-ms="106224" started-at="2018-10-07T16:22:15Z" finished-at="2018-10-07T16:24:02Z">
       <class name="testcases.executeTestThroughTestNg">
-        <test-method status="FAIL" signature="executeTest(java.lang.String)[pri:0, instance:testcases.executeTestThroughTestNg@5622fdf]" name="executeTest" duration-ms="23812" started-at="2018-08-04T18:41:01Z" finished-at="2018-08-04T18:41:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //input[@name='tripType'][@value='oneway']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'
-System info: host: 'LAPTOP-F1M00SRG', ip: '192.168.43.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7884, moz:profile: C:\Users\Rajendra Mahapatra..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 97d38cf9-7923-494e-b2b0-3382285d780a
-*** Element info: {Using=xpath, value=//input[@name='tripType'][@value='oneway']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name='tripType'][@value='oneway']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:31.527Z'
-System info: host: 'LAPTOP-F1M00SRG', ip: '192.168.43.236', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 56.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7884, moz:profile: C:\Users\Rajendra Mahapatra..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 97d38cf9-7923-494e-b2b0-3382285d780a
-*** Element info: {Using=xpath, value=//input[@name='tripType'][@value='oneway']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at operation.UIOperation.perform(UIOperation.java:39)
-at testcases.executeTestThroughTestNg.executeTest(executeTestThroughTestNg.java:84)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- executeTest -->
-      </class> <!-- testcases.executeTestThroughTestNg -->
-    </test> <!-- firefoxTest -->
-    <test name="chromeTest" duration-ms="29029" started-at="2018-08-04T18:41:01Z" finished-at="2018-08-04T18:41:30Z">
-      <class name="testcases.executeTestThroughTestNg">
-        <test-method status="PASS" signature="executeTest(java.lang.String)[pri:0, instance:testcases.executeTestThroughTestNg@224edc67]" name="executeTest" duration-ms="28871" started-at="2018-08-04T18:41:01Z" finished-at="2018-08-04T18:41:30Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testcases.executeTestThroughTestNg@436e852b]" name="setup" is-config="true" duration-ms="5838" started-at="2018-10-07T16:22:15Z" finished-at="2018-10-07T16:22:21Z">
           <params>
             <param index="0">
               <value>
@@ -91,7 +17,15 @@ at java.lang.Thread.run(Unknown Source)
           </params>
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="executeTest()[pri:0, instance:testcases.executeTestThroughTestNg@436e852b]" name="executeTest" duration-ms="99457" started-at="2018-10-07T16:22:21Z" finished-at="2018-10-07T16:24:01Z">
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.executeTestThroughTestNg@436e852b]" name="teardown" is-config="true" duration-ms="753" started-at="2018-10-07T16:24:01Z" finished-at="2018-10-07T16:24:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- testcases.executeTestThroughTestNg -->
     </test> <!-- chromeTest -->
   </suite> <!-- Suite -->
