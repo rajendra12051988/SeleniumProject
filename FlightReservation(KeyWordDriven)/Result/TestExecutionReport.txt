@@ -31,3 +31,225 @@ SET---NAME---LastName---Mahapatra---Pass
 SET---NAME---CreditCardNumber---35945875---Pass
 CLICK---NAME---BuyFlights------Pass
 VERIFYTEXT---------itinerary has been booked!---Pass
+*******************************************
+Project Name : Flight Reservation
+Environement : Production
+Operating System : Windows 10
+Machine Name : LAPTOP-F1M00SRG
+User : Rajendra Mahapatra
+*******************************************
+===========================================================
+New Test Case : Launch Flight Reservation Application
+===========================================================
+*******************************************
+Project Name : Flight Reservation
+Environement : Production
+Operating System : Windows 10
+Machine Name : LAPTOP-F1M00SRG
+User : Rajendra Mahapatra
+*******************************************
+===========================================================
+New Test Case : Launch Flight Reservation Application
+===========================================================
+GOTOURL------URL------Pass
+ASSERTTITLE---------Welcome: Mercury Tours---Pass
+===========================================================
+New Test Case : Login to Flight Reservation Application
+===========================================================
+SET---NAME---UserName---mercury---Pass
+SET---NAME---Password---mercury---Pass
+CLICK---NAME---Sign-On------Pass
+===========================================================
+New Test Case : Book A Ticket
+===========================================================
+CLICK---XPATH---TripType------Pass
+SELECT---NAME---DepartureFrom---London---Pass
+SELECT---NAME---ArrivalTo---Paris---Pass
+CLICK---XPATH---ClassPreference------Pass
+SELECT---NAME---AirlinePreference---Blue Skies Airlines---Pass
+CLICK---NAME---FindFlights------Pass
+CLICK---NAME---ReserveFlights------Pass
+SET---NAME---FirstName---Rajendra---Pass
+SET---NAME---LastName---Mahapatra---Pass
+SET---NAME---CreditCardNumber---35945875---Pass
+CLICK---NAME---BuyFlights------Pass
+VERIFYTEXT---------itinerary has been booked!---Pass
+*******************************************
+Project Name : Flight Reservation
+Environement : Production
+Operating System : Windows 10
+Machine Name : LAPTOP-F1M00SRG
+User : Rajendra Mahapatra
+*******************************************
+===========================================================
+New Test Case : Launch Flight Reservation Application
+===========================================================
+GOTOURL------URL------Pass
+ASSERTTITLE---------Welcome: Mercury Tours---Pass
+===========================================================
+New Test Case : Login to Flight Reservation Application
+===========================================================
+SET---NAME---UserName---mercury---Pass
+SET---NAME---Password---mercury---Pass
+CLICK---NAME---Sign-On------Pass
+===========================================================
+New Test Case : Book A Ticket
+===========================================================
+CLICK---XPATH---TripType------Pass
+SELECT---NAME---DepartureFrom---London---Pass
+SELECT---NAME---ArrivalTo---Paris---Pass
+CLICK---XPATH---ClassPreference------Pass
+SELECT---NAME---AirlinePreference---Blue Skies Airlines---Pass
+CLICK---NAME---FindFlights------Pass
+CLICK---NAME---ReserveFlights------Pass
+SET---NAME---FirstName---Rajendra---Pass
+SET---NAME---LastName---Mahapatra---Pass
+SET---NAME---CreditCardNumber---35945875---Pass
+CLICK---NAME---BuyFlights------Pass
+VERIFYTEXT---------itinerary has been booked!---Pass
+*******************************************
+Project Name : Flight Reservation
+Environement : Production
+Operating System : Windows 10
+Machine Name : LAPTOP-F1M00SRG
+User : Rajendra Mahapatra
+*******************************************
+===========================================================
+New Test Case : Launch Flight Reservation Application
+===========================================================
+GOTOURL------URL------Pass
+ASSERTTITLE---------Welcome: Mercury Tours---Pass
+===========================================================
+New Test Case : Login to Flight Reservation Application
+===========================================================
+SET---NAME---UserName---mercury---Pass
+SET---NAME---Password---mercury---Pass
+CLICK---NAME---Sign-On------Pass
+===========================================================
+New Test Case : Book A Ticket
+===========================================================
+CLICK---XPATH---TripType------Pass
+SELECT---NAME---DepartureFrom---London---Pass
+SELECT---NAME---ArrivalTo---Paris---Pass
+CLICK---XPATH---ClassPreference------Pass
+SELECT---NAME---AirlinePreference---Blue Skies Airlines---Pass
+CLICK---NAME---FindFlights------Pass
+CLICK---NAME---ReserveFlights------Pass
+SET---NAME---FirstName---Rajendra---Pass
+SET---NAME---LastName---Mahapatra---Pass
+SET---NAME---CreditCardNumber---35945875---Pass
+CLICK---NAME---BuyFlights------Pass
+VERIFYTEXT---------itinerary has been booked!---Pass
+*******************************************
+Project Name : Flight Reservation
+Environement : Production
+Operating System : Windows 10
+Machine Name : LAPTOP-F1M00SRG
+User : Rajendra Mahapatra
+*******************************************
+*******************************************
+Project Name : Flight Reservation
+Environement : Production
+Operating System : Windows 10
+Machine Name : LAPTOP-F1M00SRG
+User : Rajendra Mahapatra
+*******************************************
+===========================================================
+New Test Case : Launch Flight Reservation Application
+===========================================================
+GOTOURL------URL------Pass
+ASSERTTITLE---------Welcome: Mercury Tours---Pass
+===========================================================
+New Test Case : Login to Flight Reservation Application
+===========================================================
+SET---NAME---UserName---mercury---Pass
+SET---NAME---Password---mercury---Pass
+CLICK---NAME---Sign-On------Pass
+===========================================================
+New Test Case : Book A Ticket
+===========================================================
+CLICK---XPATH---TripType------Pass
+SELECT---NAME---DepartureFrom---London---Pass
+SELECT---NAME---ArrivalTo---Paris---Pass
+CLICK---XPATH---ClassPreference------Pass
+SELECT---NAME---AirlinePreference---Blue Skies Airlines---Pass
+CLICK---NAME---FindFlights------Pass
+CLICK---NAME---ReserveFlights------Pass
+SET---NAME---FirstName---Rajendra---Pass
+SET---NAME---LastName---Mahapatra---Pass
+SET---NAME---CreditCardNumber---35945875---Pass
+CLICK---NAME---BuyFlights------Pass
+VERIFYTEXT---------itinerary has been booked!---Pass
+*******************************************
+Project Name : Flight Reservation
+Environement : Production
+Operating System : Windows 10
+Machine Name : LAPTOP-F1M00SRG
+User : Rajendra Mahapatra
+*******************************************
+===========================================================
+New Test Case : Launch Flight Reservation Application
+===========================================================
+GOTOURL------URL------Pass
+ASSERTTITLE---------Welcome: Mercury Tours---Pass
+===========================================================
+New Test Case : Login to Flight Reservation Application
+===========================================================
+SET---NAME---UserName---mercury---Pass
+SET---NAME---Password---mercury---Pass
+CLICK---NAME---Sign-On------Pass
+===========================================================
+New Test Case : Book A Ticket
+===========================================================
+CLICK---XPATH---TripType------Pass
+SELECT---NAME---DepartureFrom---London---Pass
+SELECT---NAME---ArrivalTo---Paris---Pass
+CLICK---XPATH---ClassPreference------Pass
+SELECT---NAME---AirlinePreference---Blue Skies Airlines---Pass
+CLICK---NAME---FindFlights------Pass
+CLICK---NAME---ReserveFlights------Pass
+SET---NAME---FirstName---Rajendra---Pass
+SET---NAME---LastName---Mahapatra---Pass
+SET---NAME---CreditCardNumber---35945875---Pass
+CLICK---NAME---BuyFlights------Pass
+VERIFYTEXT---------itinerary has been booked!---Pass
+*******************************************
+Project Name : Flight Reservation
+Environement : Production
+Operating System : Windows 10
+Machine Name : LAPTOP-F1M00SRG
+User : Rajendra Mahapatra
+*******************************************
+*******************************************
+Project Name : Flight Reservation
+Environement : Production
+Operating System : Windows 10
+Machine Name : LAPTOP-F1M00SRG
+User : Rajendra Mahapatra
+*******************************************
+===========================================================
+New Test Case : Launch Flight Reservation Application
+===========================================================
+GOTOURL------URL------Pass
+ASSERTTITLE---------Welcome: Mercury Tours---Pass
+===========================================================
+New Test Case : Login to Flight Reservation Application
+===========================================================
+SET---NAME---UserName---mercury---Pass
+SET---NAME---Password---mercury---Pass
+CLICK---NAME---Sign-On------Pass
+===========================================================
+New Test Case : Book A Ticket
+===========================================================
+CLICK---XPATH---TripType------Pass
+SELECT---NAME---DepartureFrom---London---Pass
+SELECT---NAME---ArrivalTo---Paris---Pass
+CLICK---XPATH---ClassPreference------Pass
+SELECT---NAME---AirlinePreference---Blue Skies Airlines---Pass
+CLICK---NAME---FindFlights------Pass
+CLICK---NAME---ReserveFlights------Pass
+SET---NAME---FirstName---Rajendra---Pass
+SET---NAME---LastName---Mahapatra---Pass
+SET---NAME---CreditCardNumber---35945875---Pass
+CLICK---NAME---BuyFlights------Pass
+VERIFYTEXT---------itinerary has been booked!---Pass
